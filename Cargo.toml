@@ -1,0 +1,16 @@
+[package]
+name = "elftools"
+version = "0.1.0"
+authors = ["Remco Verhoef <remco.verhoef@dutchcoders.io>"]
+description = "Rust bindings for the elftools"
+homepage = "http://github.com/dutchcoders/elftools-rust"
+keywords = ["elftools"]
+license = "GPL-2.0"
+readme = "README.md"
+include = ["src/*", "tests/*", "Cargo.toml", "COPYING", "README.md"]
+
+[dependencies]
+libc = "0.2.14"
+bitflags = "0.7.0"
+nix = "0.6.0"
+
