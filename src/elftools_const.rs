@@ -3256,9 +3256,6 @@ pub struct Elf32_Lib {
     pub l_flags: Elf32_Word, // Flags
 }
 
-
-
-
 #[repr(C)]
 #[derive(Clone, Debug)]
 pub struct Elf64_Lib {
